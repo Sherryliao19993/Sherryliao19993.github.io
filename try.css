@@ -1,0 +1,78 @@
+p{
+color blue;
+}
+h1{
+color red;
+text-align:center;
+}
+body{
+background-image:url('星空.jpg');
+}
+
+	.column a {
+    float: none;
+    color: red !important;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+	
+	
+	.slideshow-container{
+	  width: 60%;  
+	  height: 100px;
+	  margin: 0px auto;  /* 置中 */
+	}
+	.slideshowul{
+	  width: 80%;
+	  list-style-type: none;  /* 不要顯示點點 */
+	  display: inline-block;  /* 變成inline才不會占用一整行 */
+	  margin: 0px;  /* 取消預設margin */
+	  text-align: center;  /* 置中內部元素 */
+	  margin-top: 45px;
+	  padding: 0px;  /* 取消預設padding(ul預設有padding-left: 40px) */
+	}
+	.spot{
+	  width: 13px;
+	  height: 13px;
+	  margin-top: 45px;
+	  border-radius: 100%;  /* 變成圓形 */
+	  background-color: gray;
+	  display: inline-block;  
+	  cursor: pointer; /*cursor change to hand shape*/
+	}
+	.spot.prev{
+	float: left;  /* 置左 */
+	}
+
+	.spot.next{
+	float: right;  /* 置右 */
+	}
+
+.content{
+	font-family:Microsoft JhengHei,Arial,sans-serif;
+	background-color:rgba(255,255,255,0.5);
+	margin-top:60px;
+	margin-left:80px;
+	margin-right:80px;
+	padding:60px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	}
+	@media(max-width: 800px){
+    /* margin設小一點，白色的背板才不會太小 */
+  .content{
+    margin: 20px 15px 20px 15px;
+  }
+
+  .slideshow-container{
+    width: 90%; 
+  }
+
+  p{
+    font-size: 18px;
+  }
+}
+	
